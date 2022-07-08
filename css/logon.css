@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: rgb(75,102,145);
+    text-decoration: none;
+}
+/* 设置背景图片 */
+body {
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg.png) no-repeat;
+    background-size:cover;
+    background-attachment:fixed
+}
+/* 设置登录窗口 */
+.logonWindow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 420px;
+    margin-top: -220px;
+    margin-left: -210px;
+    background-color: rgba(4, 13, 33, 0.6);
+}
+.logonWindow h4 {
+    width: 320px;
+    height: 100px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    color: #4b6691;
+}
+.logonWindow div {
+    width: 320px;
+    margin: auto;
+}
+.logonWindow .form {
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+} 
+.logonWindow .form input {
+    float: left;
+    height: 25px;
+    border: 1.5px solid transparent;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+    background-color: transparent;
+}
+.logonWindow .form input:focus {
+    border: 1.5px solid skyblue;
+    background-color: rgba(0,49,125,.6);
+}
+.logonWindow .form span {
+    float: left;
+    width: 80px;
+    height: 28px;
+    line-height: 25px;
+    text-align: center;
+    color: skyblue; 
+}
+.logonWindow div #check {
+    height: 14px;
+    margin: 30px 0px 0px 40px;
+    font-size: 12px;
+}
+.logonWindow div button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 35px auto 0px auto;
+    text-align: center;
+    font-size: 18px;
+    color:rgb(0,207,200);
+    background-color: rgba(4,13,33,0.7);
+}
+.logonWindow div button:hover {
+    background-color: rgba(73,31,74,0.4);
+}
+.logonWindow #check {
+    width: 180px;
+    height: 14px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: red;
+}
+#change {
+    width: 300px;
+    margin-top: 15px;
+}
+#change #forget {
+    float: left;
+}
+#change #jumpRegister {
+    float: right;
+    font-size: 14px;
+    color: #fff;
+}

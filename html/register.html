@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册界面</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <!-- 注册窗口 -->
+    <div class="registerWindow">
+        <h4>注册界面</h4>
+        <div>
+            <ul class="form">
+                <li><span>用户名</span><input type="text" placeholder="3-15位的数字或字母" id="useName"></li>
+                <li><span>昵称</span><input type="text" placeholder="请输入您的昵称" id="myName"></li>
+                <li><span>邮箱</span><input type="text" placeholder="请输入您的邮箱" id="email"></li>
+                <li><span>密码</span><input type="password" placeholder="6-20位的数字或字母" id="myPassword"></li>
+                <li><span>重复密码</span><input type="password" placeholder="请重复输入密码" id="rePassword"></li>
+            </ul>
+            <p id="check"></p>
+            <button id="registerbtn">注册</button>
+            <p id="toLogon">已有账号，<a href="logon.html">立即登录</a></p>
+        </div>
+    </div>
+</body>
+<script src="../js/register.js"></script>
+</html>
